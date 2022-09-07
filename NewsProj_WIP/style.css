@@ -1,0 +1,134 @@
+body, html {
+    height: 100%;
+}
+
+.containermain {
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 25px;
+    background-color: steelblue;
+    
+}
+
+.header {
+    display: flex;
+    padding-bottom: 60px;
+    
+}
+
+#toph1 {
+    display: flex;
+    justify-content: center;
+    flex: 1;
+    color: #EDEADE;
+    font-size: 96px;
+}
+
+.topbuttonleft {
+    flex-basis: 110px;
+    
+}
+
+.topbuttonright {
+    flex-basis: 110px;
+}
+
+.timer {
+    padding-bottom: 60px;
+}
+
+.politicalcard {
+    display: flex;
+    flex-basis: 300px;
+    margin-bottom: 64px;
+    margin-left: 24px;
+    
+}
+
+.polimg {
+    flex-basis: 300px;
+    background-color: #EDEADE;
+    border: 10px;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.polcontainer {
+    display: flex;
+    background-color: transparent;
+    align-items: center;
+    justify-content: flex-end;
+    font-size: 64px;
+    margin-left: 32px;
+    color: #EDEADE;
+}
+
+img {
+    display: flex;
+    width: auto;
+    height: 300px;
+    border-radius: 10px;
+    border-color: #FFFDD0;
+}
+
+.financialcard {
+    display: flex;
+    flex-basis: 300px;
+    flex-direction: row-reverse;
+    margin-bottom: 64px;
+    margin-right: 24px;
+ 
+    
+}
+
+.finimg {
+    flex-basis: 300px;
+    background-color: #FFFDD0;
+    border: 10px;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.fincontainer {
+    display: flex;
+    background-color: transparent;
+    align-items: center;
+    justify-content: flex-end;
+    font-size: 64px;
+    margin-right: 32px;
+    color: #FFFDD0;
+}
+
+.globalcard {
+    display: flex;
+    flex-basis: 300px;
+    margin-bottom: 64px;
+    margin-left: 24px;
+}
+
+.gloimg {
+    flex-basis: 300px;
+    background-color: #FFFDD0;
+    border: 10px;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.glocontainer {
+    display: flex;
+    background-color: transparent;
+    align-items: center;
+    justify-content: flex-end;
+    font-size: 64px;
+    margin-left: 32px;
+    color: #FFFDD0;
+}
+
+.parallax {
+    background-image: url("backgroundimg.jpg");
+    min-height: 1300px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
